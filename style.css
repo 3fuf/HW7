@@ -10,16 +10,21 @@
 .icon-first {
     width: 200px;
     height: 200px;
-    margin: 1%;
-    background-color: red;
+    border: 10px solid black;
     float: left;
+    margin-right: 1%;
+}
+
+.icon-first:nth-child(2) {
+    margin-right: 0;
 }
 
 .icon-second {
     float: left;
     width: 150px;
     height: 300px;
-    background-color: blue;
+    border: 10px solid black;
+    margin-left: 10px;
 }
 
 .container-inner {
@@ -41,6 +46,7 @@
     width: 150px;
     height: 150px;
     border: 10px solid black;
+    margin: 0 0 10px 10px;
 }
 
 .box {
@@ -48,6 +54,7 @@
 }
 
 .container-center {
+    width: 510px;
     margin-left: auto;
     margin-right: auto;
 }
